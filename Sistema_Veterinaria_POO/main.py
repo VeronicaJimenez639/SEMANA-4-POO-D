@@ -16,7 +16,7 @@ def main():
     print(veterinaria.atender("001", propietario1))   # Intentamos atender otra vez
     print(veterinaria.liberar("001"))                 # Liberamos la mascota
     print(veterinaria.atender("001", propietario1))   # La atendemos nuevamente
-    print(veterinaria.atender("999", propietario1))   # Código inexistente
+    print(veterinaria.atender("999", propietario1))   # Código NO existe
 
 # Ejecutamos el programa
 if __name__ == "__main__":
